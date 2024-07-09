@@ -25,6 +25,7 @@ Both the Generator and Discriminator work in pair in order to give better result
 Download the subset of the Cityscapes Subset Dataset (https://drive.google.com/file/d/11bMXXsHYVoUF4KrwPjmnJmwCc59vqn4k/view?usp=sharing).
 I have used Kaggle for running the code. The GPU used is P100.
 
+
 # Requirements
 The below dependencies are required to run the code:
 Python 3.x
@@ -38,3 +39,11 @@ torchvision
 
 # Evaluation Metrics
 Metrics such as PSNR and SSIM are being computed against the original high-resolution images.
+
+# Results
+Below is the link having the Generator and Discriminator models along with the generated images.
+https://drive.google.com/file/d/1_u2EW2-lbjkB0pfbg_8iFaFuLXC9nQ0b/view?usp=sharing
+
+After training the model for 15 epochs the results are as follows:
+Average PSNR is 20.13144169888745
+Average SSIM is 0.6105433073293027
